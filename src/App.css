@@ -1,0 +1,43 @@
+#root {
+  
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+
+.container{
+  display: flexbox;  
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+button {
+  margin: 10px;
+}
+
+input {
+  height: 30px;
+  border: none;
+  outline: none;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  padding-top: 5px;
+  
+}
+
+.lista {
+  display: inline-block;
+  width: 100em;
+  min-height: 100em;
+  max-height: 100%;
+  margin: 0;
+  padding: 0;
+  
+}
